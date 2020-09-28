@@ -4,10 +4,10 @@ import { Text, View, Button } from 'react-native'
 export default function home({ navigation }) {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Home Screen</Text>
+            <Text>Home Screennn</Text>
             <Button
                 title="Go to Login"
-                onPress={() => navigation.push('Login')} ></Button>
+                onPress={() => navigation.navigate('Login')} ></Button>
 
 
         </View>
